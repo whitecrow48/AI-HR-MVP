@@ -1,6 +1,6 @@
 # Виртуальное окружение
 venv/
-.env/
+.env
 
 # Jupyter checkpoints
 **/.ipynb_checkpoints/
@@ -18,9 +18,11 @@ __pycache__/
 *.tmp
 *.swp
 
-# Отчеты/выходные файлы
-reports/*.pdf
-reports/*.json
+# Отчеты
+reports/
 
-# Загрузки резюме/тестовые данные
-data/
+# Загрузки резюме / тестовые данные
+data/resumes/
+
+# папка с логами
+logs/log-output/
