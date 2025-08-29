@@ -1,6 +1,6 @@
 # callbacks.py
 
-# Основные callback-паттерны
+# callback-паттерны
 SELECT_VACANCY = r"^select_\d+$"
 VIEW_VACANCY = r"^vac_\d+$"
 BACK_TO_MENU = r"^back_to_menu$"
