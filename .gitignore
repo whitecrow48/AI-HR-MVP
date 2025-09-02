@@ -26,3 +26,6 @@ data/resumes/
 
 # папка с логами
 logs/log-output/
+
+# Папка с тестами
+nlp/test/

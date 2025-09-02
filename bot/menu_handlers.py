@@ -1,6 +1,7 @@
 # menu_handlers.py
 
 from telegram import ReplyKeyboardMarkup, KeyboardButton
+
 from bot.utils import list_vacancies
 from bot.vacancy_handlers import choose_vacancy
 from bot.data_loader import VacancyManager

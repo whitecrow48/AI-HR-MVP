@@ -2,11 +2,13 @@
 import os
 from dotenv import load_dotenv
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters
+
+from bot.utils import list_vacancies
 from logs.logger import logger
 from bot.data_loader import VacancyManager
 from bot.callbacks import SELECT_VACANCY, VIEW_VACANCY, BACK_TO_MENU
 from bot.menu_handlers import start_menu, handle_main_menu_message, back_to_menu
-from bot.utils import list_vacancies
+
 from bot.vacancy_handlers import choose_vacancy, vacancy_selected, show_vacancy_details, back_handler
 from bot.resume_handlers import handle_resume
 

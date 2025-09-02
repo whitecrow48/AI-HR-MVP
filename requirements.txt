@@ -10,6 +10,16 @@ ru-core-news-lg @ https://github.com/explosion/spacy-models/releases/download/ru
 python-docx==0.8.11
 pdfplumber==0.9.0
 pdfminer.six==20221105
+pymorphy2
+
+rapidfuzz
+datasketch
+striprtf
+# OCR для сканированных PDF
+Pillow>=9.5.0,<12
+pytesseract
+
+
 
 # Голосовой ввод/вывод
 openai-whisper @ git+https://github.com/openai/whisper.git

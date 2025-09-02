@@ -1,3 +1,4 @@
+# logger.py
 import logging
 import os
 
@@ -24,7 +25,9 @@ console_handler = logging.StreamHandler()
 console_handler.setFormatter(formatter)
 
 # Добавляем обработчики к логгеру
-logger.addHandler(file_handler)
-logger.addHandler(console_handler)
+if not logger.handlers:
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+
 
 logger.info("Логгер инициализирован. Логи сохраняются в 'logs/log-output/'")
